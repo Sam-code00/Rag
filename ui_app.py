@@ -104,7 +104,7 @@ def main():
         key="query_img",
         label_visibility="collapsed"
     )
-    st.caption("You can also drag and drop an image above")
+    st.caption("You can also drag and drop an images above")
 
     if prompt := st.chat_input("Ask a question about uploaded manual"):
         user_msg = {"role": "user", "content": prompt}
